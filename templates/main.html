@@ -1,0 +1,9 @@
+{% extends "index.html" %}
+
+{% block content %}
+<ul></ul>
+<form class="form-wrapper cf">
+	<input type="text" placeholder="Search here..." ng-model="searchInput" required>
+	<button type="submit" ng-click="submit()">Search</button>
+</form>
+{% endblock content %}
